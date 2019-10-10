@@ -6,7 +6,11 @@ public class Person {
         this.mobile = mobile;
     }
 
-    public void changePhone(Mobile mobile){
+    public Mobile getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(Mobile mobile) {
         this.mobile = mobile;
     }
 }
