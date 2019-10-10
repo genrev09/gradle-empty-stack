@@ -34,4 +34,8 @@ public class Mobile {
     public void getMobileSpecifications(){
         System.out.println("name: "+ getName() + ", color: "+ getColor() + ", brand: "+getBrand());
     }
+
+    public boolean checkMessageExceedLength(String message, int limit){
+        return (message.length() > limit);
+    }
 }
