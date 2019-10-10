@@ -3,4 +3,8 @@ public class iPhoneRobot {
     public iPhoneRobot(iPhone iPhone) {
         this.iPhone = iPhone;
     }
+
+    public iPhone getiPhone() {
+        return iPhone;
+    }
 }
